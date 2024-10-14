@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
+    <h1 className="bg-primary w-full overflow-hidden">
       Hello world!
     </h1>
   )
