@@ -16,7 +16,10 @@ const Hero = () => (
       </div>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1>The Next Generation Payment Method</h1>
+        <h1 className="">
+          The Next <br className="sm:block hidden" />{" "}
+          <span className="text-gradient">Generation </span> Payment Method
+        </h1>
       </div>
     </div>
   </section>
