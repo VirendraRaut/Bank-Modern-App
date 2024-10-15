@@ -16,9 +16,10 @@ const Hero = () => (
       </div>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px]">
           The Next <br className="sm:block hidden" />{" "}
-          <span className="text-gradient">Generation</span> <br />
+          <span className="text-gradient">Generation</span>
+          <br />
           Payment Method
         </h1>
       </div>
