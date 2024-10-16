@@ -1,11 +1,7 @@
-import React from 'react'
+import styles from "../style";
 
-const Business = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Business = () => <section>
+  
+</section>;
 
-export default Business
+export default Business;
