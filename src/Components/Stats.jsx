@@ -1,11 +1,10 @@
-import React from 'react'
+import styles from "../style";
+import { stats } from "../constants";
 
-const Stats = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Stats = () => (
+  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
 
-export default Stats
+  </section>
+)
+
+export default Stats;
