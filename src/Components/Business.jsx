@@ -10,7 +10,7 @@ const Business = () => {
           You do the business, <br className="sm:block hidden" />
           We'll handle the money.
         </h2>
-        <p className={`${styles.paragraph}`}>
+        <p className={`${styles.paragraph} max-w-[470px]`}>
           With the right credit card, you can improve yours financial life by
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
