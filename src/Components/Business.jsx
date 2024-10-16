@@ -6,7 +6,10 @@ const Business = () => {
   return (
     <section id="features" className={`${layout.section} `}>
       <div className={`${layout.sectionInfo}`}>
-        <h2>You do the business, We'll handle the money.</h2>
+        <h2>
+          You do the business, <br className="sm:block hidden" />
+          We'll handle the money.
+        </h2>
       </div>
     </section>
   );
