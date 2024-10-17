@@ -46,6 +46,10 @@ const Footer = () => (
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
         HooBank 2024. All Rights Reserved.
       </p>
+
+      <div className="flex flow-row md:mt-0 mt-6">
+        
+      </div>
     </div>
   </section>
 );
