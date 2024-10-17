@@ -15,6 +15,7 @@ const CardDeal = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ut
           quidem, repellendus voluptas consequatur temporibus.
         </p>
+        <Button styles="mt-10"/>
       </div>
     </section>
   );
