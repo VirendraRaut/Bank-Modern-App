@@ -8,6 +8,7 @@ const FeedbackCard = ({ content, name, title }) => {
         alt="double_quotes"
         className="w-[42px] h-[27px] object-contain"
       />
+      <p className="font-poppins font-normal text-white">{content}</p>
     </div>
   );
 };
