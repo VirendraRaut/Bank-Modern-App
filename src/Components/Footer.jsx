@@ -41,6 +41,10 @@ const Footer = () => (
         ))}
       </div>
     </div>
+
+    <div>
+      <p>HooBank 2024. All Rights Reserved.</p>
+    </div>
   </section>
 );
 
