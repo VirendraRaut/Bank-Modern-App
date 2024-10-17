@@ -15,7 +15,10 @@ const Testimonials = () => {
           saying about us
         </h1>
         <div className="w-full md:mt-0 mt-6">
-          <p className={`${styles.paragraph} text-left max-w-[450px]`}></p>
+          <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+            Everything you need to accept card payments and grow your business
+            anywhere on the planet
+          </p>
         </div>
       </div>
     </section>
