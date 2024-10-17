@@ -11,7 +11,7 @@ const Testimonials = () => {
 
       <div className="flex w-full md:flex-row flex-col justify-between items-center sm:mb-16 mb-6">
         <h1>
-          What people are <br />
+          What people are <br className="sm:block hidden" />
           saying about us
         </h1>
       </div>
