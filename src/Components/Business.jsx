@@ -9,7 +9,9 @@ const FeatureCard = ({ icon, title, content, index }) => {
         index === features.length - 1 ? "mb-6" : "mb-0"
       } feature-card`}
     >
-      <div>
+      <div
+        className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      >
         <img
           src={icon}
           alt="icon"
