@@ -15,7 +15,11 @@ const CardDeal = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ut
           quidem, repellendus voluptas consequatur temporibus.
         </p>
-        <Button styles="mt-10"/>
+        <Button styles="mt-10" />
+      </div>
+
+      <div className={`${layout.sectionImg}`}>
+        <img src={card} alt="card" className="w-[100%] h-[100%]" />
       </div>
     </section>
   );
