@@ -9,7 +9,12 @@ const Testimonials = () => {
     >
       <div />
 
-      <div className="flex w-full md:flex-row flex-col justify-between items-center sm:mb-16 mb-6"></div>
+      <div className="flex w-full md:flex-row flex-col justify-between items-center sm:mb-16 mb-6">
+        <h1>
+          What people are <br />
+          saying about us
+        </h1>
+      </div>
     </section>
   );
 };
