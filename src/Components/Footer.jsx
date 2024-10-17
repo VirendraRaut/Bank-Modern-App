@@ -43,7 +43,7 @@ const Footer = () => (
     </div>
 
     <div>
-      <p className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
         HooBank 2024. All Rights Reserved.
       </p>
     </div>
