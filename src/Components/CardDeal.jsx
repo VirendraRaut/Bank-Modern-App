@@ -11,6 +11,10 @@ const CardDeal = () => {
           <br className="sm:block hidden" />
           In few easy steps
         </h2>
+        <p className={`${styles.paragraph}`}>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ut
+          quidem, repellendus voluptas consequatur temporibus.
+        </p>
       </div>
     </section>
   );
