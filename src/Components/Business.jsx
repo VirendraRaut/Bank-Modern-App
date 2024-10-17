@@ -23,7 +23,9 @@ const FeatureCard = ({ icon, title, content, index }) => {
         <h4 className="font-poppins font-semibold text-[18px] text-white mb-1 leading-[23px]">
           {title}
         </h4>
-        <p className={`${styles.paragraph}`}>{content}</p>
+        <p className="font-poppins font-normal text-[16px] text-dimWhite mb-1 leading-[24px]">
+          {content}
+        </p>
       </div>
     </div>
   );
