@@ -1,6 +1,5 @@
 import styles, { layout } from "../style";
-import { apple, bll, google } from "../constants";
-import { bill } from "../assets";
+import { apple, bill, google } from "../assets";
 
 const Billing = () => {
   return (
