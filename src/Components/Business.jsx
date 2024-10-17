@@ -6,7 +6,12 @@ const FeatureCard = ({ icon, title, content, index }) => {
   return (
     <div>
       <div>
-        <img src={icon} alt="icon" index={index} />
+        <img
+          src={icon}
+          alt="icon"
+          index={index}
+          className="w-[50%] h-[50%] object-contain"
+        />
       </div>
     </div>
   );
