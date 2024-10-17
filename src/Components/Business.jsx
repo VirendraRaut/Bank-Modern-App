@@ -5,7 +5,9 @@ import Button from "./Button";
 const FeatureCard = ({ icon, title, content, index }) => {
   return (
     <div>
-      <img src={icon} alt="icon" index={index} />
+      <div>
+        <img src={icon} alt="icon" index={index} />
+      </div>
     </div>
   );
 };
