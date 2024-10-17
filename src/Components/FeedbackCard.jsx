@@ -1,4 +1,5 @@
 import { quotes } from "../assets";
+import styles from "../style";
 
 const FeedbackCard = ({ content, name, title, img }) => (
   <div className="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] feedback-card md:mr-10 sm:mr-5 mr-0 my-5">
@@ -22,7 +23,7 @@ const FeedbackCard = ({ content, name, title, img }) => (
         <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
           {name}
         </h4>
-        <p>{title}</p>
+        <p className={`${styles.paragraph}`}>{title}</p>
       </div>
     </div>
   </div>
