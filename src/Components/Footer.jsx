@@ -15,6 +15,29 @@ const Footer = () => (
           A new way to make the payments easy, reliable and secure
         </p>
       </div>
+
+      <div className="flex flex-[1.5] flex-row flex-wrap w-full justify-between md:mt-0 mt-10">
+        {footerLinks.map((footerLink) => (
+          <div
+            key={footerLink.key}
+            className="flex flex-col sm:my-0 my-4 min-w-[150px]"
+          >
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-kWhite">
+              {footerLink.title}
+            </h4>
+            <ul>
+              {footerLinks.map((Link, index) => (
+                <li
+                  key={Link.name}
+                  className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer"
+                >
+                  {Link.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 );
