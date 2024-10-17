@@ -2,8 +2,12 @@ import styles, { layout } from "../style";
 import { features } from "../constants";
 import Button from "./Button";
 
-const FeatureCard = () => {
-  return <></>;
+const FeatureCard = ({ icon, title, content, index }) => {
+  return (
+    <div>
+      <img src={icon} alt="icon" index={index} />
+    </div>
+  );
 };
 
 const Business = () => {
