@@ -12,6 +12,10 @@ const CTA = () => (
         anywhere on the planet
       </p>
     </div>
+
+    <div>
+      <Button />
+    </div>
   </section>
 );
 
