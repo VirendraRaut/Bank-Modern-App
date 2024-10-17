@@ -6,7 +6,11 @@ const Testimonials = () => {
   return (
     <section
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
-    ></section>
+    >
+      <div />
+
+      <div className="flex w-full md:flex-row flex-col justify-between items-center sm:mb-16 mb-6"></div>
+    </section>
   );
 };
 
