@@ -1,11 +1,10 @@
-import React from 'react'
+import styles, { layout } from "../style";
+import { apple, bll, google } from "../constants";
 
 const Billing = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <section className="">
 
-export default Billing
+  </section>;
+};
+
+export default Billing;
