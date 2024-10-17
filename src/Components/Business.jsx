@@ -19,6 +19,10 @@ const FeatureCard = ({ icon, title, content, index }) => {
           className="w-[50%] h-[50%] object-contain"
         />
       </div>
+      <div className="flex flex-1 flex-col ml-3">
+        <h4 className={``}>{title}</h4>
+        <p className={`${styles.paragraph}`}>{content}</p>
+      </div>
     </div>
   );
 };
