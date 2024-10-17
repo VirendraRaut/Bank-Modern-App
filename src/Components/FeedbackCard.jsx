@@ -7,7 +7,9 @@ const FeedbackCard = ({ content, name, title, img }) => (
       alt="double_quotes"
       className="w-[42px] h-[27px] object-contain"
     />
-    <p className="font-poppins font-normal text-white">{content}</p>
+    <p className="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">
+      {content}
+    </p>
   </div>
 );
 
