@@ -43,7 +43,9 @@ const Footer = () => (
     </div>
 
     <div>
-      <p>HooBank 2024. All Rights Reserved.</p>
+      <p className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+        HooBank 2024. All Rights Reserved.
+      </p>
     </div>
   </section>
 );
